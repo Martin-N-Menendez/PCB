@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source G:\Dropbox\Maestria\PCB\ContadorDePasajeros\PCB\ContadorDePasajeros\ContadorDePasajeros.sch)
-    (date "10/11/2018 0:35:25")
+    (source C:\Users\JinnKaY\Desktop\PCB-master\ContadorDePasajeros\ContadorDePasajeros.sch)
+    (date "10/11/2018 11:34:50")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -223,15 +223,15 @@
         (field (name Value) MountingHole))))
   (libraries
     (library (logical Connector)
-      (uri E:\Programas\KiCad\share\kicad\library/Connector.lib))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector.lib"))
     (library (logical Connector_Generic)
-      (uri E:\Programas\KiCad\share\kicad\library/Connector_Generic.lib))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector_Generic.lib"))
     (library (logical Device)
-      (uri E:\Programas\KiCad\share\kicad\library/Device.lib))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib"))
     (library (logical ESP8266)
-      (uri G:\Dropbox\Maestria\PCB\ContadorDePasajeros\PCB\ContadorDePasajeros/kicad-ESP8266-master/ESP8266.lib))
+      (uri C:\Users\JinnKaY\Desktop\PCB-master\ContadorDePasajeros/kicad-ESP8266-master/ESP8266.lib))
     (library (logical Mechanical)
-      (uri E:\Programas\KiCad\share\kicad\library/Mechanical.lib)))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Mechanical.lib")))
   (nets
     (net (code 1) (name /Gpio0)
       (node (ref U1) (pin 6))
