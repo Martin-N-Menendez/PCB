@@ -478,4 +478,37 @@ Wire Wire Line
 Connection ~ 6850 2300
 Wire Wire Line
 	6850 2300 6850 2400
+$Comp
+L Mechanical:MountingHole F1
+U 1 1 5BE76892
+P 3700 5750
+F 0 "F1" H 3800 5796 50  0000 L CNN
+F 1 "MH2" H 3800 5705 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2mm_Outer" H 3700 5750 50  0001 C CNN
+F 3 "~" H 3700 5750 50  0001 C CNN
+	1    3700 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole F2
+U 1 1 5BE76A1A
+P 3700 6100
+F 0 "F2" H 3800 6146 50  0000 L CNN
+F 1 "MH2" H 3800 6055 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2mm_Outer" H 3700 6100 50  0001 C CNN
+F 3 "~" H 3700 6100 50  0001 C CNN
+	1    3700 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small Logo
+U 1 1 5BE76AD4
+P 4600 5900
+F 0 "Logo" H 4600 6175 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 4600 5675 50  0001 C CNN
+F 2 "" H 4600 5900 50  0001 C CNN
+F 3 "~" H 4600 5900 50  0001 C CNN
+	1    4600 5900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

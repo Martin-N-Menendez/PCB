@@ -778,7 +778,7 @@
   (gr_line (start 96 111.25) (end 96 70.75) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 142.45 111.275) (end 96 111.25) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 142.475 70.75) (end 142.45 111.275) (layer Edge.Cuts) (width 0.15))
-  (gr_text "Margen: 0.5 mm\nAncho pista: 0.5 mm\nDiametro Via: 1 mm\nTaladro via: 0.4 mm\n\nCuadricula: 0.25 mm\n\nFabricante:\nhttps://www.pcbcart.com/pcb-fab/hdi-pcb.html\n" (at 182.25 91.75) (layer Cmts.User) (tstamp 5BCA2752)
+  (gr_text "Margen: 0.5 mm\nAncho pista: 0.5 mm\nDiametro Via: 1 mm\nTaladro via: 0.4 mm\n\nCuadricula: 0.5 mm\n\nFabricante:\nhttps://www.pcbcart.com/pcb-fab/hdi-pcb.html\n" (at 182.25 91.75) (layer Cmts.User) (tstamp 5BCA2752)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (dimension 46.5 (width 0.3) (layer Cmts.User)
