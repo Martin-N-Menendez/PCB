@@ -231,10 +231,10 @@ F 3 "~" H 5400 3050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper J1
+L Device:Jumper JP1
 U 1 1 5BB8F7EE
 P 8000 3450
-F 0 "J1" V 7954 3577 50  0000 L CNN
+F 0 "JP1" V 7954 3577 50  0000 L CNN
 F 1 "Jumper" V 8045 3577 50  0000 L CNN
 F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P" H 8000 3450 50  0001 C CNN
 F 3 "~" H 8000 3450 50  0001 C CNN
@@ -269,10 +269,10 @@ Wire Wire Line
 Wire Wire Line
 	8000 3800 8000 3750
 $Comp
-L Device:Jumper J2
+L Device:Jumper JP2
 U 1 1 5BB951CA
 P 3050 3650
-F 0 "J2" V 3096 3562 50  0000 R CNN
+F 0 "JP2" V 3096 3562 50  0000 R CNN
 F 1 "Jumper" V 3005 3562 50  0000 R CNN
 F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P" H 3050 3650 50  0001 C CNN
 F 3 "~" H 3050 3650 50  0001 C CNN
@@ -561,4 +561,26 @@ Text Notes 4800 2650 0    79   ~ 0
 Zocalo de conexion
 Text Notes 4900 5800 0    79   ~ 0
 ESP-01
+$Comp
+L Graphic:Logo_Open_Hardware_Small Logo
+U 1 1 5BE757D9
+P 2450 6000
+F 0 "Logo" H 2450 6275 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 2450 5775 50  0001 C CNN
+F 2 "" H 2450 6000 50  0001 C CNN
+F 3 "~" H 2450 6000 50  0001 C CNN
+	1    2450 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole FX
+U 1 1 5BE7582F
+P 2450 6400
+F 0 "FX" H 2550 6446 50  0000 L CNN
+F 1 "MH4" H 2550 6355 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 2450 6400 50  0001 C CNN
+F 3 "~" H 2450 6400 50  0001 C CNN
+	1    2450 6400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -561,4 +561,37 @@ Text Notes 4800 2650 0    79   ~ 0
 Zocalo de conexion
 Text Notes 4900 5800 0    79   ~ 0
 ESP-01
+$Comp
+L Graphic:Logo_Open_Hardware_Small Logo
+U 1 1 5BE757D9
+P 2450 6000
+F 0 "Logo" H 2450 6275 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 2450 5775 50  0001 C CNN
+F 2 "" H 2450 6000 50  0001 C CNN
+F 3 "~" H 2450 6000 50  0001 C CNN
+	1    2450 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole F1
+U 1 1 5BE7582F
+P 2450 6400
+F 0 "F1" H 2550 6446 50  0000 L CNN
+F 1 "MH4" H 2550 6355 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 2450 6400 50  0001 C CNN
+F 3 "~" H 2450 6400 50  0001 C CNN
+	1    2450 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole F2
+U 1 1 5BE75C48
+P 2450 6600
+F 0 "F2" H 2550 6646 50  0000 L CNN
+F 1 "MH4" H 2550 6555 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 2450 6600 50  0001 C CNN
+F 3 "~" H 2450 6600 50  0001 C CNN
+	1    2450 6600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
